@@ -1,7 +1,7 @@
 import NetworkingProjects from "@/components/projects/networking-projects";
 import ProgrammingProjects from "@/components/projects/programming-projects";
 import PageContainer from "@/components/shared/page-container";
-import React from "react";
+import React, { Suspense } from "react";
 
 function Projects() {
   return (

@@ -10,7 +10,7 @@ function TabsContentPrograming() {
         <section className="space-y-6">
           <div className="space-y-4">
             <h2 className="text-2xl font-light text-foreground">
-              Hello, I'm LA RESSANN
+              Hello, I&apos;m LA RESSANN
             </h2>
             <p className="text-lg leading-relaxed text-muted-foreground">
               I&apos;m a Full-Stack Developer who loves to build things from the
@@ -25,27 +25,6 @@ function TabsContentPrograming() {
             </p>
           </div>
         </section>
-
-        {/* Background
-        <section className="space-y-6">
-          <h3 className="text-xl font-light text-foreground">Background</h3>
-          <div className="space-y-4 text-muted-foreground leading-relaxed">
-            <p>
-              With over [X] years of experience in web development, I've had the
-              privilege of working on diverse projects ranging from small
-              business websites to large-scale enterprise applications. My
-              journey in tech began with a curiosity about how things work,
-              which evolved into a deep passion for creating digital solutions.
-            </p>
-            <p>
-              I believe in writing clean, maintainable code and creating user
-              experiences that are both intuitive and delightful. When I'm not
-              coding, you can find me [your hobbies/interests].
-            </p>
-          </div>
-        </section> */}
-
-        {/* What I Do */}
         <section className="space-y-6">
           <h3 className="text-xl font-light text-foreground">What I Do</h3>
           <div className="grid gap-6 md:grid-cols-2">
@@ -70,12 +49,11 @@ function TabsContentPrograming() {
           </div>
         </section>
 
-        {/* Philosophy */}
         <section className="space-y-6">
           <h3 className="text-xl font-light text-foreground">My Philosophy</h3>
-          <blockquote className="border-l-2 border-primary pl-6 italic text-muted-foreground">
-            "Make it work, make it right, make it fast."
-          </blockquote>
+          <p className="border-l-2 border-primary pl-6 italic text-muted-foreground">
+            &quot;Make it work, make it right, make it fast.&quot;
+          </p>
         </section>
       </div>
     </TabsContent>

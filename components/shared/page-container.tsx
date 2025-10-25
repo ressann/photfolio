@@ -18,7 +18,6 @@ function PageContainer({
   return (
     <div className="container mx-auto px-8 py-16 max-w-4xl">
       <div className="space-y-12">
-        {/* Header */}
         <div className="space-y-4">
           <h1 className="text-5xl font-light tracking-tight text-primary">
             {title}

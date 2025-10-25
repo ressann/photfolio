@@ -9,7 +9,7 @@ function TabsContentNetworking() {
         <section className="space-y-6">
           <div className="space-y-4">
             <h2 className="text-2xl font-light text-foreground">
-              Hello, I'm LA RESSANN
+              Hello, I&apos;m LA RESSANN
             </h2>
             <p className="text-lg leading-relaxed text-muted-foreground">
               Results-driven IT Support and Network Engineer with strong
@@ -46,38 +46,11 @@ function TabsContentNetworking() {
             </p>
           </div>
         </section>
-
-        {/* What I Do */}
-        {/* <section className="space-y-6">
-          <h3 className="text-xl font-light text-foreground">What I Do</h3>
-          <div className="grid gap-6 md:grid-cols-2">
-            <div className="space-y-2">
-              <h4 className="font-medium text-foreground">
-                Frontend Development
-              </h4>
-              <p className="text-sm text-muted-foreground leading-relaxed">
-                Creating responsive, accessible interfaces with modern
-                frameworks and best practices.
-              </p>
-            </div>
-            <div className="space-y-2">
-              <h4 className="font-medium text-foreground">
-                Backend Development
-              </h4>
-              <p className="text-sm text-muted-foreground leading-relaxed">
-                Building robust APIs and server-side applications with
-                scalability in mind.
-              </p>
-            </div>
-          </div>
-        </section> */}
-
-        {/* Philosophy */}
         <section className="space-y-6">
           <h3 className="text-xl font-light text-foreground">My Philosophy</h3>
-          <blockquote className="border-l-2 border-primary pl-6 italic text-muted-foreground">
-            "Make it work, make it right, make it fast."
-          </blockquote>
+          <p className="border-l-2 border-primary pl-6 italic text-muted-foreground">
+            &quot;Make it work, make it right, make it fast.&quot;
+          </p>
         </section>
       </div>
     </TabsContent>

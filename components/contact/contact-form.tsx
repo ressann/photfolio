@@ -5,7 +5,7 @@ function ContactForm() {
   return (
     <div className="container mx-auto px-8 py-16 max-w-4xl">
       <div className="space-y-12">
-        {/* Header */}
+
         <div className="space-y-4">
           <h1 className="text-5xl font-light tracking-tight text-primary">
             Contact
@@ -13,16 +13,16 @@ function ContactForm() {
           <div className="h-px w-24 bg-border" />
         </div>
 
-        {/* Introduction */}
+
         <section className="space-y-6">
           <p className="text-lg leading-relaxed text-muted-foreground">
-            I'm always interested in hearing about new projects and
+            I&apos;m always interested in hearing about new projects and
             opportunities. Whether you have a question or just want to say
             hello, feel free to reach out.
           </p>
         </section>
 
-        {/* Contact Information */}
+
         <section className="space-y-8">
           <h2 className="text-2xl font-light text-foreground">Get In Touch</h2>
 
@@ -96,11 +96,10 @@ function ContactForm() {
 
         <SendMessageForm />
 
-        {/* Availability */}
         <section className="space-y-4 pt-8 border-t border-border">
           <h3 className="text-xl font-light text-foreground">Availability</h3>
           <p className="text-muted-foreground leading-relaxed">
-            I'm currently available for freelance projects and full-time
+            I&apos;m currently available for freelance projects and full-time
             opportunities. Response time is typically within 24-48 hours.
           </p>
         </section>

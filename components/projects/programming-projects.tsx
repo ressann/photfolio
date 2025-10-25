@@ -10,7 +10,7 @@ function ProgrammingProjects() {
       <div className="py-5 space-y-5">
         <section className="space-y-6">
           <p className="text-lg leading-relaxed text-muted-foreground">
-            A selection of projects I've worked on. Each project represents a
+            A selection of projects I&apos;ve worked on. Each project represents a
             unique challenge and an opportunity to learn and grow as a
             developer.
           </p>
