@@ -1,4 +1,5 @@
 import React from "react";
+import SendMessageForm from "./send-message-form";
 
 function ContactForm() {
   return (
@@ -73,7 +74,7 @@ function ContactForm() {
                   GitHub
                 </a>
                 <a
-                  href="https://telegram.org/ressann_la"
+                  href="https://t.me/ressann_la"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="text-lg text-primary hover:underline transition-all"
@@ -81,7 +82,7 @@ function ContactForm() {
                   Telegram
                 </a>
                 <a
-                  href="https://x.com/ressann"
+                  href="https://x.com/la_ressann"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="text-lg text-primary hover:underline transition-all"
@@ -93,85 +94,7 @@ function ContactForm() {
           </div>
         </section>
 
-        {/* Contact Form */}
-        <section className="space-y-8">
-          <h2 className="text-2xl font-light text-foreground">
-            Send a Message
-          </h2>
-
-          <form className="space-y-6">
-            <div className="space-y-2">
-              <label
-                htmlFor="name"
-                className="text-sm font-medium text-foreground"
-              >
-                Name
-              </label>
-              <input
-                type="text"
-                id="name"
-                name="name"
-                className="w-full px-4 py-3 bg-background border border-border text-foreground focus:outline-none focus:border-primary transition-colors"
-                placeholder="Your name"
-              />
-            </div>
-
-            <div className="space-y-2">
-              <label
-                htmlFor="email"
-                className="text-sm font-medium text-foreground"
-              >
-                Email
-              </label>
-              <input
-                type="email"
-                id="email"
-                name="email"
-                className="w-full px-4 py-3 bg-background border border-border text-foreground focus:outline-none focus:border-primary transition-colors"
-                placeholder="laressann2001@gmail.com"
-              />
-            </div>
-
-            <div className="space-y-2">
-              <label
-                htmlFor="subject"
-                className="text-sm font-medium text-foreground"
-              >
-                Subject
-              </label>
-              <input
-                type="text"
-                id="subject"
-                name="subject"
-                className="w-full px-4 py-3 bg-background border border-border text-foreground focus:outline-none focus:border-primary transition-colors"
-                placeholder="What's this about?"
-              />
-            </div>
-
-            <div className="space-y-2">
-              <label
-                htmlFor="message"
-                className="text-sm font-medium text-foreground"
-              >
-                Message
-              </label>
-              <textarea
-                id="message"
-                name="message"
-                rows={6}
-                className="w-full px-4 py-3 bg-background border border-border text-foreground focus:outline-none focus:border-primary transition-colors resize-none"
-                placeholder="Your message..."
-              />
-            </div>
-
-            <button
-              type="submit"
-              className="px-8 py-3 bg-primary text-primary-foreground hover:bg-primary/90 transition-colors font-medium"
-            >
-              Send Message
-            </button>
-          </form>
-        </section>
+        <SendMessageForm />
 
         {/* Availability */}
         <section className="space-y-4 pt-8 border-t border-border">
