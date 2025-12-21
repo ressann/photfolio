@@ -19,7 +19,7 @@ export async function POST(req: NextRequest) {
 
     const { error } = await resend.emails.send({
       from: 'onboarding@resend.dev',
-      to: 'maxclubit@gmail.com',
+      to: 'laressann2001@gmail.com',
       subject,
       react: Welcome(),
     });
