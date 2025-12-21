@@ -4,11 +4,12 @@ import Link from "next/link";
 import { Button } from "./ui/button";
 import { sidebarData } from "@/lib/data";
 import { Tooltip, TooltipContent, TooltipTrigger } from "./ui/tooltip";
+import ToggleTheme from "./toggle-theme";
 
 function SidebarSmallScreen() {
   return (
     <nav className=" sticky top-5 md:hidden w-full flex items-center justify-center z-50">
-      <div className=" backdrop-blur-md py-2 px-4 rounded-md bg-white/30 flex items-center gap-2">
+      <div className=" backdrop-blur-md py-2 px-4 rounded-md bg-white/30 dark:bg-neutral-800 flex items-center gap-2">
         {sidebarData.map((item) => (
           <Tooltip key={item.id}>
             <TooltipTrigger asChild>
@@ -21,6 +22,7 @@ function SidebarSmallScreen() {
             </TooltipContent>
           </Tooltip>
         ))}
+        <ToggleTheme/>
       </div>
     </nav>
   );

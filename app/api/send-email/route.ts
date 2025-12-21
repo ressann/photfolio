@@ -15,11 +15,11 @@ export async function POST(req: NextRequest) {
       );
     const resend = new Resend(process.env.RESEND_API_KEY!);
 
-    resend.domains.verify(process.env.RESEND_DOMAIN!);
+    // resend.domains.verify(process.env.RESEND_DOMAIN!);
 
     const { error } = await resend.emails.send({
-      from: email,
-      to: [process.env.EMAIL!],
+      from: 'onboarding@resend.dev',
+      to: 'maxclubit@gmail.com',
       subject,
       react: Welcome(),
     });

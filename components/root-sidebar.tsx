@@ -4,11 +4,13 @@ import { sidebarData } from "@/lib/data";
 import { cn } from "@/lib/utils";
 import Link from "next/link";
 import React from "react";
+import ToggleTheme from "./toggle-theme";
+
 
 function RootSidebar() {
   const pathname = usePathname();
   return (
-    <div className="min-w-xs max-w-xs px-5 md:flex hidden ">
+    <div className="min-w-xs max-w-xs px-5 md:flex hidden relative">
       <ul className="flex flex-col gap-2 transition-colors hover:text-primary">
         {sidebarData.map((item) => (
           <li key={item.id}>
@@ -25,7 +27,15 @@ function RootSidebar() {
             </Link>
           </li>
         ))}
+
+        
       </ul>
+      <div className="absolute bottom-5 flex flex-row items-center justify-between w-[85%]">
+          <p className="text-sm transition-colors hover:text-primary text-muted-foreground">
+            Mode Toggle
+          </p>
+          <ToggleTheme />
+        </div>
     </div>
   );
 }
